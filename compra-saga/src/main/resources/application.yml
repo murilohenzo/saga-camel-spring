@@ -1,0 +1,33 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        secure: true
+  error:
+    whitelabel:
+      enabled: false
+management:
+  server:
+    port: 9090
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+camel:
+  springboot:
+    name: RestDSLContext
+    tracing: true
+  servlet:
+    mapping:
+      contextPath: /v1/*
+    rest:
+      contextPath: /v1/*
+
+apis:
+  ms-orders: http://localhost:8085
+  ms-credits: http://localhost:8086
