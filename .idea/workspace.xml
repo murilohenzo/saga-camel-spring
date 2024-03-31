@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79115f9c-4f91-4a15-91f3-9015bc8c3285" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/compra-saga/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/java/br/com/murilohenzo/compra/saga/CompraSagaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/java/br/com/murilohenzo/compra/saga/adapters/inbound/rest/CompraOrchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/java/br/com/murilohenzo/compra/saga/camel/consts/RouterOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/java/br/com/murilohenzo/compra/saga/camel/processors/SagaProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/java/br/com/murilohenzo/compra/saga/camel/routes/RestConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/java/br/com/murilohenzo/compra/saga/camel/routes/SagaRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/java/br/com/murilohenzo/compra/saga/config/CamelSagaOrch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra-saga/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/br/com/murilohenzo/credit/service/CreditServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/br/com/murilohenzo/credit/service/adapters/inbound/rest/CreditServiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/br/com/murilohenzo/credit/service/domain/services/CreditService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/br/com/murilohenzo/order/service/OrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/br/com/murilohenzo/order/service/adapters/inbound/rest/OrderServiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/br/com/murilohenzo/order/service/domain/services/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2eSlB2MIzpL0dYr5jFgnJFCHDDY" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/muril/Workspace/Projetos/java-springboot/saga-camel-spring"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="OPA_TEST_RUN_CONFIGURATION" factoryName="Opa configuration factory">
+      <option name="additionalargs" value="" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79115f9c-4f91-4a15-91f3-9015bc8c3285" name="Changes" comment="" />
+      <created>1711905721118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711905721118</updated>
+    </task>
+    <servers />
+  </component>
+</project>
