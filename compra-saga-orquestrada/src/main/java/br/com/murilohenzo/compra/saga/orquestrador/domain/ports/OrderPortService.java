@@ -26,6 +26,6 @@ public interface OrderPortService {
      * @param id O ID do pedido.
      */
     @PostMapping("/{id}/cancel")
-    void cancelOrder(@PathVariable("id") @Header("id") Long id);
+    Object cancelOrder(@PathVariable("id") @Header("id") Long id);
 
 }

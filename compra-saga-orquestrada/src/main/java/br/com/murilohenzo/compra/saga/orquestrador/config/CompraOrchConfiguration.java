@@ -1,7 +1,7 @@
 package br.com.murilohenzo.compra.saga.orquestrador.config;
 
 import br.com.murilohenzo.compra.saga.orquestrador.camel.processors.SagaProcessor;
-import br.com.murilohenzo.compra.saga.orquestrador.camel.routes.BuySagaRouter;
+import br.com.murilohenzo.compra.saga.orquestrador.camel.routes.CompraSagaRouter;
 import br.com.murilohenzo.compra.saga.orquestrador.domain.ports.CreditPortService;
 import br.com.murilohenzo.compra.saga.orquestrador.domain.ports.OrderPortService;
 import org.springframework.context.annotation.Bean;
@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @Configuration
-public class BuySagaOrchestrationConfiguration {
+public class CompraOrchConfiguration {
 
   /**
    * Bean para inicialização do roteador da saga de compra.
@@ -25,10 +25,10 @@ public class BuySagaOrchestrationConfiguration {
    * @return O roteador da saga de compra.
    */
   @Bean
-  public BuySagaRouter buySagaRouter(SagaProcessor sagaProcessor,
-                                     OrderPortService orderPortService, CreditPortService creditPortService) {
+  public CompraSagaRouter compraSagaRouter(SagaProcessor sagaProcessor,
+                                        OrderPortService orderPortService, CreditPortService creditPortService) {
     log.info("[I30] - Inicializando Saga Router");
-    return new BuySagaRouter(sagaProcessor,
+    return new CompraSagaRouter(sagaProcessor,
             orderPortService, creditPortService);
   }
 }

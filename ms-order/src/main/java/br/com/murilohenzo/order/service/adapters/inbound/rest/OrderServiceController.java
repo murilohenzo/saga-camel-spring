@@ -6,7 +6,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Slf4j
@@ -36,9 +38,11 @@ public class OrderServiceController {
   }
 
   @PostMapping("/{id}/cancel")
-  public ResponseEntity<Void> cancelOrder(@PathVariable("id") Long id) {
+  public ResponseEntity<Map<String, String>> cancelOrder(@PathVariable("id") Long id) {
     orderService.cancelOrder(id);
-    return ResponseEntity.ok().build();
+    Map<String, String> json = new HashMap<>();
+    json.put("message", String.format("Pedido com id: %d cancelado", id));
+    return ResponseEntity.ok().body(json);
   }
 
 }
