@@ -8,11 +8,14 @@
 		<version>3.2.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>br.com.murilohenzo</groupId>
 	<artifactId>compra-saga-orquestrada</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>compra-saga</name>
-	<description>Demo project for Spring Boot</description>
+
+	<name>compra-saga-orquestrada</name>
+	<description>Camel REST DSL and OpenApi with Spring Boot</description>
+
 	<properties>
 		<java.version>21</java.version>
 		<camel.version>4.4.1</camel.version>
@@ -46,6 +49,11 @@
 
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-openapi-java-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-servlet-starter</artifactId>
 		</dependency>
 
@@ -57,6 +65,11 @@
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-http</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
 		</dependency>
 
 		<dependency>
@@ -89,6 +102,13 @@
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-test-junit5</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-test-junit5</artifactId>
+			<version>${camel.version}</version>
 			<scope>test</scope>
 		</dependency>
 

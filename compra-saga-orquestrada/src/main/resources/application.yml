@@ -31,3 +31,8 @@ camel:
 apis:
   ms-orders: http://localhost:8085
   ms-credits: http://localhost:8086
+
+
+logging:
+  level:
+    feign: DEBUG

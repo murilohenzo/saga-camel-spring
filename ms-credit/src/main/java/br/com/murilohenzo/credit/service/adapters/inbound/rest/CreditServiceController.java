@@ -26,7 +26,6 @@ public class CreditServiceController {
     }
   }
 
-//  @PostMapping("/{id}/cancel")
   @PostMapping("/cancel")
   public ResponseEntity<Void> cancelOrderValue() {
     Long id = 0L;
